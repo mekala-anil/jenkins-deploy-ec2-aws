@@ -13,6 +13,6 @@ public class HomeController {
 
     @GetMapping("/hello")
     public String getMessage(){
-        return "Hello User";
+        return "Hello User, Welcome to Spring Boot World";
     }
 }
